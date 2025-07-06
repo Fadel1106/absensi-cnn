@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Absensi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Hasil Absensi</h2>
+        <div class="mb-3">
+            <img src="/uploads/{{ filename }}" alt="Foto Absen" class="img-thumbnail" style="width:300px; height:300px; object-fit:cover;">
+        </div>
+        <div class="alert alert-info">
+            Status Absensi: <strong>{{ result }}</strong>
+        </div>
+        <a href="/" class="btn btn-secondary">Kembali</a>
+    </div>
+</body>
+</html>

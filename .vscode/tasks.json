@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run Flask App",
+			"command": "C:/Users/NURHAYATI/AppData/Local/Programs/Python/Python39/python.exe app.py",
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}
